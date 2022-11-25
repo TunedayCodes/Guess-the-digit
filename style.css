@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0 auto;
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  font-size: 50px;
+  font-family: 'Zilla Slab', serif;
+  background-color: #c7c7e6;
+  border-radius: 10px;
+}
+
+p {
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  font-size: 20px;
+  line-height: 40px;
+  padding-bottom: 60px;
+  font-family: 'Zilla Slab', serif;
+}
+
+body{
+  margin: 0 auto;
+  text-align: center;
+}
+
+#guess{
+   padding: 12px 20px;
+   margin: 0 0 26px 0;
+   border: 2px solid #c7c7e6;
+   border-radius: 4px;
+   border-bottom: 5px solid #e7e7e7;
+   outline: none;
+}
+
+#check{
+   color: rgb(82, 79, 79);
+   cursor: pointer;
+   padding: 10px;
+   margin-top: 25px;
+   margin-bottom: 35px;
+   font-weight: bolder;
+   border: 3px solid #c7c7e6;
+   border-radius: 10px;
+   transition-duration: 0.4s;
+}
+
+#check:hover{
+   background-color: #CFF5E7;
+   color: black;
+   border: 3px solid #c7c7e6;
+   transition-duration: 0.4s;
+}
+
+button{
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 25px;
+  font-weight: bolder;
+  border: 3px solid #c7c7e6;
+}
+
+.footer{
+   margin-top: 1rem;
+   padding: 40px 0 0 0;
+   text-align: center;
+ }
+
+.Copyright{
+   color: black;
+   font-size: 11px;
+   padding: 40px 0 0 0;
+   padding-bottom: 0;
+ }
