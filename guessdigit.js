@@ -17,8 +17,8 @@ function validateGuess(){
 
   //GET THE USER'S GUESS FROM THE TEXT BOX
   const userGuess = parseInt(document.getElementById("guess").value);
-  console.log("The user guess  is " + userGuess);
-  //console.log("type is " + typeof(userGuess));
+// console.log("The user guess  is " + userGuess);
+// console.log("type is " + typeof(userGuess));
 
   //COMPARE USER'S GUESS TO PICKED NUMBER
   if(pickedNumber == userGuess){
@@ -38,7 +38,8 @@ document.getElementById("start").disabled = false;
 
 //INCREMENT COUNTER
   count++; //THIS IS SAME AS count = count + 1; or count += 1;
-  console.log(message);
+  console.log(count);
+//   console.log(message);
 
   //THIS CHECKS IF THE USER IS OUT OF TRIALS
   if (count == maxTries && gameOver == false){
@@ -58,7 +59,7 @@ document.getElementById("start").disabled = true;
   
 //GENERATE A NEW RANDOM NUMBER TO GUESS BETWEEN 1 TO 100
 pickedNumber = 1 + Math.floor(Math.random()*100);
-//console.log("pickedNumber is " + pickedNumber);
+console.log("The Picked number for this round is " + pickedNumber);
 
 //RESET VARIABLES  
 count = 0;
